@@ -11,7 +11,7 @@ export default function Hero() {
                         <h1 className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl">
                             Jazziel Rodriguez
                         </h1>
-                        <span className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl trakking-tight text-transparent lg:text-6xl">
+                        <span className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl trakking-tight text-transparent lg:text-6xl">
                             Backend developer
                         </span>
                         <p className="my-2 max-w-xl py-6 font-light tracking-tight">
