@@ -6,7 +6,7 @@ import project4 from "../assets/projects/project-4.webp";
 export const HERO_CONTENT = `Desarrollador de software especializado en el lado del servidor, con capacidad para crear aplicaciones funcionales y escalables. Cuento con un año de experiencia práctica trabajando con diversas herramientas y entornos como Node.js y Express. También tengo conocimientos en el desarrollo frontend utilizando React y Angular. Mi principal objetivo es aplicar mi experiencia para ofrecer soluciones efectivas que impulsen el crecimiento empresarial.`;
 
 
-export const ABOUT_TEXT = `Acerca de mi xd .`;
+export const ABOUT_TEXT = `Acerca de mi xd texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto .`;
 
 export const EXPERIENCES = [
   {
