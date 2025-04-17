@@ -20,7 +20,7 @@ export default function Contact() {
                     initial={{ opacity: 0, x: 100 }}
                     transition={{ duration: 1 }}
                     className='my-4'>{CONTACT.phoneNo}</motion.p>
-                <a href="#" className='border-b'>{CONTACT.email}</a>
+                <a href="mailto:jazzielrodriguezlopez@gmail.com" className='border-b'>{CONTACT.email}</a>
             </div>
         </div>
     )
