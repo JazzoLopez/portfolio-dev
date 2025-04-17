@@ -1,8 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Special+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
 
 @import "tailwindcss";
 
 ::root{
-  font-family: 'Special Gothic';
-  color-scheme: dark;
+  
+  color-scheme: darl;
+}
+
+*{
+  font-family: 'Karla', sans-serif;
 }
