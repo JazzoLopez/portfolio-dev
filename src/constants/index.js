@@ -5,9 +5,13 @@ import project4 from "../assets/projects/project-4.webp";
 
 export const HERO_CONTENT = `Desarrollador de software especializado en el lado del servidor, con capacidad para crear aplicaciones funcionales y escalables. Cuento con un año de experiencia práctica trabajando con diversas herramientas y entornos como Node.js y Express. También tengo conocimientos en el desarrollo frontend utilizando React y Angular. Mi principal objetivo es aplicar mi experiencia para ofrecer soluciones efectivas que impulsen el crecimiento empresarial.`;
 
-
-export const ABOUT_TEXT = `Acerca de mi xd texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto .`;
-
+export const ABOUT_TEXT = `
+Soy desarrollador de software con enfoque en backend, actualmente finalizando la Ingeniería en Sistemas Computacionales.<br />
+Me especializo en la creación de APIs seguras, manejo de autenticación, gestión de usuarios y lógica de negocio.<br />
+He trabajado con tecnologías como Node.js (Express, NestJS), PHP (Slim), Java (Spring Boot), y bases de datos tanto relacionales como no relacionales.<br /><br />
+Actualmente, estoy ampliando mis conocimientos en DevOps por cuenta propia, buscando integrar prácticas que optimicen el desarrollo y despliegue de aplicaciones.<br /><br />
+Me interesa trabajar en equipo y contribuir a soluciones técnicas eficientes. Estoy abierto a colaborar en cualquier tipo de proyecto, no exclusivamente de backend, siempre que represente una oportunidad de aprendizaje y crecimiento profesional.
+`;
 export const EXPERIENCES = [
   {
     //ejemplos
