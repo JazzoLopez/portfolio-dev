@@ -1,6 +1,18 @@
 import { HERO_CONTENT } from "../constants/index.js";
 import profile from "../assets/profile.png";
+import { motion } from "framer-motion";
 
+const container = (delay) => ({
+    hidden: { x: -100, opacity: 0 },
+    visible: {
+        x: 0,
+        opacity: 1,
+        transition: {
+            duration: 0.5,
+            delay: delay,
+        }
+    }
+})
 
 export default function Hero() {
     return (
@@ -8,24 +20,43 @@ export default function Hero() {
             <div className="flex flex-wrap">
                 <div className="w-full lg:w-1/2">
                     <div className="flex flex-col items-center lg:items-start">
-                        <h1 className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl">
+                        <motion.h1
+                            variants={container(0)}
+                            initial="hidden"
+                            animate="visible"
+                            className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl">
                             Jazziel Rodriguez
-                        </h1>
-                        <span className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl trakking-tight text-transparent lg:text-6xl">
+                        </motion.h1>
+                        <motion.span
+                            variants={container(0.5)}
+                            initial="hidden"
+                            animate="visible"
+                            className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl trakking-tight text-transparent lg:text-6xl">
                             Backend developer
-                        </span>
-                        <p className="my-2 max-w-xl py-6 font-light tracking-tight">
+                        </motion.span>
+                        <motion.p variants={container(1)}
+                            initial="hidden"
+                            animate="visible"
+                            className="my-2 max-w-xl py-6 font-light tracking-tight">
                             {
                                 HERO_CONTENT
                             }
-                        </p>
+                        </motion.p>
                     </div>
                 </div>
                 <div className="w-full lg:w-1/2 lg:p-8">
                     <div className="flex justify-center">
-                        <img src={profile} alt="about picture" className="rounded-2xl" />
+                        <motion.img
+                            initial={{ x: 100, opacity: 0 }}
+                            animate={{ x: 0, opacity: 1 }}
+                            transition={{ duration: 1, delay: 1.2 }}
+                            src={profile}
+                            alt="about picture"
+                            className="rounded-2xl"
+                            width={400}
+                            eight={400} />
                     </div>
-                    
+
                 </div>
             </div>
         </div>
