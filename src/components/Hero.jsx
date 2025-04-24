@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants/index.js";
-import profile from "../assets/profile.png";
+import profile from "../assets/profileNoBg.png";
 import { motion } from "framer-motion";
 
 const container = (delay) => ({
@@ -45,17 +45,21 @@ export default function Hero() {
                     </div>
                 </div>
                 <div className="w-full lg:w-1/2 lg:p-8">
-                    <div className="flex justify-center">
-                        <motion.img
+                    <div className="flex justify-center relative">
+                        <motion.div
                             initial={{ x: 100, opacity: 0 }}
                             animate={{ x: 0, opacity: 1 }}
                             transition={{ duration: 1, delay: 1.2 }}
-                            src={profile}
-                            alt="about picture"
-                            className="rounded-2xl"
-                            width={400}
-                            eight={400} />
+                            className="relative z-10 rounded-full bg-neutral-950/20 p-[2px]"
+                        >
+                            <img
+                                src={profile}
+                                alt="about picture"
+                                className="rounded-full w-[300px] h-[300px] object-cover"
+                            />
+                        </motion.div>
                     </div>
+
 
                 </div>
             </div>
