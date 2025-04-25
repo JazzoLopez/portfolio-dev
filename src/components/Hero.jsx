@@ -33,7 +33,19 @@ export default function Hero() {
                             animate="visible"
                             className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl trakking-tight text-transparent lg:text-6xl">
                             Backend developer
+
                         </motion.span>
+                        <motion.a
+                            href="/cv/CVJazzielRodriguezLopez.pdf"
+                            download
+                            initial={{ x: -100, opacity: 0 }}
+                            animate={{ x: 0, opacity: 1 }}
+                            transition={{ duration: 1.2, delay: 1.5 }}
+                            className="mt-6 inline-block rounded-xl border border-neutral-700 px-6 py-3 text-sm font-medium transition hover:bg-neutral-800"
+                        >
+                            Descargar CV
+                        </motion.a>
+
                         <motion.p variants={container(1)}
                             initial="hidden"
                             animate="visible"
