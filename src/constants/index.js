@@ -29,8 +29,9 @@ export const EXPERIENCES = [
   },
   
   {
-    title:"SPC",
-    image: project2,
+    year: "Mayo 2023 - Agosto 2023",
+    role: "Backend Developer",
+    company: " Servicios Profesionales Computacionales",
     description:
       "Sistema de gestión y control de servicios que optimiza las operaciones de una empresa. Facilita a los administradores la gestión de usuarios, dispositivos y servicios, mientras que los usuarios pueden consultar en tiempo real los servicios que se les están realizando..",
     technologies: ["Node.js", "Express", "MySQL", "Template Engine", "MVC"],
@@ -49,7 +50,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Av Zaragoza #208 Col. Centro, 773080 Xicotepec de Juárez, Puebla",
-  phoneNo: "+52 764 110 68 43 ",
+  // address: "Av Zaragoza #208 Col. Centro, 773080 Xicotepec de Juárez, Puebla",
+  // phoneNo: "+52 764 110 68 43 ",
   email: "jazzielrodriguezlopez@gmail.com",
 };
