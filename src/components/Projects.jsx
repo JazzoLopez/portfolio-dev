@@ -43,6 +43,18 @@ export default function Projects() {
                                     {tech}
                                 </span>
                             ))}
+                            {project.gitUrl && (
+                                <div className="mt-4">
+                                    <a
+                                        href={project.gitUrl}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="text-blue-500 hover:underline"
+                                    >
+                                        Ver código en GitHub
+                                    </a>
+                                </div>
+                            )}
                         </motion.div>
                     </div>
                 ))}

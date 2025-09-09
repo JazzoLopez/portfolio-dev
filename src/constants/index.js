@@ -18,14 +18,14 @@ export const EXPERIENCES = [
     role: "Backend Developer",
     company: " XicoNemi.",
     description: `Participé en el desarrollo del sistema backend de Xiconemi, una aplicación enfocada en impulsar el turismo en Pueblos Mágicos. Se implementó autenticación segura con tokens, control de usuarios por roles y una arquitectura robusta para la gestión de datos.`,
-    technologies: ["Typescript", "Node.js", "Express", "mongoDB", "PostgreSQL", "Redis", "Prisma",],
+    technologies: ["TypeScript", "Node.js", "Express", "mongoDB", "PostgreSQL", "Redis", "Prisma"],
   },
   {
     year: "Mayo 2024 - Agosto 2024",
     role: "Full Stack Developer",
     company: " StartDust Inc S.A de C.V",
     description: `Migré el sistema backend de la aplicación Huauchitour a una versión 2.0. Además, desarrollé el sistema de administración para negocios y superadministradores, utilizando React y Redux Toolkit para la gestión y persistencia de datos.`,
-    technologies: ["HTML", "CSS", "React.js", "MySQL", "Slim php", "React Native"],
+    technologies: ["HTML", "CSS", "React.js", "MySQL", "Slim PHP", "React Native"],
   },
   
   {
@@ -46,12 +46,14 @@ export const PROJECTS = [
     description:
       "Portfolio personal que muestra mis proyectos, habilidades y experiencia laboral.",
     technologies: ["Tailwindcss", "React", "Node.js","HTML", "CSS"],
+    gitUrl:"https://github.com/JazzoLopez/portfolio-dev"
   },
   {
     title: "Sentinel-pi",
     image: project3,
     description:"Aplicación de monitoreo y gestión de ataques en tiempo real que permite a los usuarios supervisar y controlar incidentes de seguridad de manera eficiente ademas de predecir posibles amenazas futuras utilizando algoritmos de machine learning.",
     technologies:["Spring Boot", "Java", "MySQL", "Thymeleaf","HTML", "CSS"],
+    gitUrl:"https://github.com/GoatTeam1/docs_SentinelPI"
   }
 ];
 
