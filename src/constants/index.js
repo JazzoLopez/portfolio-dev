@@ -1,5 +1,5 @@
 import project1 from "../assets/projects/project01.png";
-import project2 from "../assets/projects/project02.jpg";
+import project3 from "../assets/projects/project03.png";
 
 
 export const HERO_CONTENT = `Desarrollador de software especializado en el lado del servidor, con capacidad para crear aplicaciones funcionales y escalables. Cuento con un año de experiencia práctica trabajando con diversas herramientas y entornos como Node.js y Express. También tengo conocimientos en el desarrollo frontend utilizando React y Angular. Mi principal objetivo es aplicar mi experiencia para ofrecer soluciones efectivas que impulsen el crecimiento empresarial.`;
@@ -7,14 +7,14 @@ export const HERO_CONTENT = `Desarrollador de software especializado en el lado 
 export const ABOUT_TEXT = `
 Soy desarrollador de software con enfoque en backend, actualmente finalizando la Ingeniería en Sistemas Computacionales.<br />
 Me especializo en la creación de APIs seguras, manejo de autenticación, gestión de usuarios y lógica de negocio.<br />
-He trabajado con tecnologías como Node.js (Express, NestJS), PHP (Slim), Java (Spring Boot), y bases de datos tanto relacionales como no relacionales.<br /><br />
+He trabajado con tecnologías como Node.js (Express, NestJS), Java (Spring Boot), y bases de datos tanto relacionales como no relacionales.<br /><br />
 Actualmente, estoy ampliando mis conocimientos en DevOps por cuenta propia, buscando integrar prácticas que optimicen el desarrollo y despliegue de aplicaciones.<br /><br />
 Me interesa trabajar en equipo y contribuir a soluciones técnicas eficientes. Estoy abierto a colaborar en cualquier tipo de proyecto, no exclusivamente de backend, siempre que represente una oportunidad de aprendizaje y crecimiento profesional.
 `;
 export const EXPERIENCES = [
   {
     //ejemplos
-    year: "Septiembre 2024 - Presente",
+    year: "Septiembre 2024 - Abril 2025",
     role: "Backend Developer",
     company: " XicoNemi.",
     description: `Participé en el desarrollo del sistema backend de Xiconemi, una aplicación enfocada en impulsar el turismo en Pueblos Mágicos. Se implementó autenticación segura con tokens, control de usuarios por roles y una arquitectura robusta para la gestión de datos.`,
@@ -47,6 +47,12 @@ export const PROJECTS = [
       "Portfolio personal que muestra mis proyectos, habilidades y experiencia laboral.",
     technologies: ["Tailwindcss", "React", "Node.js","HTML", "CSS"],
   },
+  {
+    title: "Sentinel-pi",
+    image: project3,
+    description:"Aplicación de monitoreo y gestión de ataques en tiempo real que permite a los usuarios supervisar y controlar incidentes de seguridad de manera eficiente ademas de predecir posibles amenazas futuras utilizando algoritmos de machine learning.",
+    technologies:["Spring Boot", "Java", "MySQL", "Thymeleaf","HTML", "CSS"],
+  }
 ];
 
 export const CONTACT = {

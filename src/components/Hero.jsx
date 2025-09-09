@@ -36,7 +36,7 @@ export default function Hero() {
 
                         </motion.span>
                         <motion.a
-                            href="/cv/CVJazzielRodriguezLopez.pdf"
+                            href="/cv/cv_jazziel_rodriguez.pdf"
                             download
                             initial={{ x: -100, opacity: 0 }}
                             animate={{ x: 0, opacity: 1 }}

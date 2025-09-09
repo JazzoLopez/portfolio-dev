@@ -19,12 +19,6 @@ export default function NavBar() {
                    className="hover:text-white transition-colors">
                     <FaGithub />
                 </a>
-                <a href="https://x.com/JazzieloRL" 
-                   target="_blank" 
-                   rel="noopener noreferrer" 
-                   className="hover:text-sky-400 transition-colors">
-                    <FaTwitter />
-                </a>
             </div>
         </div>
     )
