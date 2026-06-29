@@ -2,11 +2,11 @@
 
 @import "tailwindcss";
 
-::root{
-  
+:root {
+
   color-scheme: darl;
 }
 
-*{
+* {
   font-family: 'Karla', sans-serif;
 }
