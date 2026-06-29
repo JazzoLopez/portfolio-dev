@@ -1,11 +1,18 @@
 import { RiReactjsLine, RiJavascriptFill } from 'react-icons/ri';
 import {
-  SiTypescript, SiExpress, SiNestjs, SiSpringboot, SiMysql,
-  SiPrisma, SiPostgresql, SiGithub,
-  SiDocker, SiGit
+  SiTypescript,
+  SiExpress,
+  SiMysql,
+  SiGithub,
+  SiDocker,
+  SiGit,
+  SiDotnet,
+  SiSharp,
+  SiJquery,
+  SiBootstrap,
+  SiMongodb,
+  SiPostgresql
 } from 'react-icons/si';
-import { FaJava } from 'react-icons/fa';
-import { BiLogoMongodb } from 'react-icons/bi';
 import { motion } from 'framer-motion';
 
 const iconVariants = duration => ({
@@ -18,31 +25,30 @@ const iconVariants = duration => ({
       ease: 'easeInOut',
     }
   }
-})
-
+});
 
 const icons = {
   backend: [
-    { Icon: SiExpress, color: 'text-gray-300', duration: 1.5, name: 'Express' },
-    { Icon: SiNestjs, color: 'text-pink-600', duration: 2, name: 'NestJS' },
-    { Icon: FaJava, color: 'text-orange-600', duration: 3, name: 'Java' },
-    { Icon: SiSpringboot, color: 'text-green-500', duration: 3.5, name: 'Spring Boot' },
+    { Icon: SiSharp, color: 'text-purple-500', duration: 1.5, name: 'C#' },
+    { Icon: SiDotnet, color: 'text-purple-400', duration: 2, name: '.NET' },
+    { Icon: SiExpress, color: 'text-gray-300', duration: 2.5, name: 'Express' },
   ],
   database: [
-    { Icon: BiLogoMongodb, color: 'text-green-600', duration: 1.5, name: 'MongoDB' },
-    { Icon: SiPostgresql, color: 'text-blue-500', duration: 2, name: 'PostgreSQL' },
-    { Icon: SiMysql, color: 'text-blue-400', duration: 2.5, name: 'MySQL' },
-    { Icon: SiPrisma, color: 'text-indigo-400', duration: 3, name: 'Prisma' },
+    { Icon: SiMysql, color: 'text-blue-400', duration: 2, name: 'MySQL' },
+    { Icon: SiMongodb, color: 'text-green-500', duration: 2.5, name: 'MongoDB' },
+    { Icon: SiPostgresql, color: 'text-blue-600', duration: 3, name: 'PostgreSQL' },
   ],
   frontend: [
     { Icon: RiReactjsLine, color: 'text-cyan-400', duration: 1.5, name: 'React' },
-    { Icon: RiJavascriptFill, color: 'text-yellow-400', duration: 2.5, name: 'JavaScript' },
-    { Icon: SiTypescript, color: 'text-blue-500', duration: 3, name: 'TypeScript' },
+    { Icon: RiJavascriptFill, color: 'text-yellow-400', duration: 2, name: 'JavaScript' },
+    { Icon: SiTypescript, color: 'text-blue-500', duration: 2.5, name: 'TypeScript' },
+    { Icon: SiJquery, color: 'text-blue-400', duration: 3, name: 'jQuery' },
+    { Icon: SiBootstrap, color: 'text-purple-500', duration: 3.5, name: 'Bootstrap' },
   ],
   tools: [
     { Icon: SiGit, color: 'text-orange-500', duration: 1.5, name: 'Git' },
     { Icon: SiGithub, color: 'text-white', duration: 2, name: 'GitHub' },
-    { Icon: SiDocker, color: 'text-blue-400', duration: 2.5, name: 'Docker' },
+    { Icon: SiDocker, color: 'text-blue-400', duration: 3, name: 'Docker' },
   ]
 };
 
@@ -82,7 +88,7 @@ export default function Technologies() {
       </motion.h2>
 
       <Section title="Backend" items={icons.backend} />
-      <Section title="Base de Datos y ORM" items={icons.database} />
+      <Section title="Bases de Datos" items={icons.database} />
       <Section title="Frontend" items={icons.frontend} />
       <Section title="Herramientas" items={icons.tools} />
     </div>

@@ -31,7 +31,7 @@ export default function Hero() {
                             variants={container(0.5)}
                             initial="hidden"
                             animate="visible"
-                            className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl trakking-tight text-transparent lg:text-6xl">
+                            className="bg-linear-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl trakking-tight text-transparent lg:text-6xl">
                             Backend developer
 
                         </motion.span>
@@ -62,12 +62,12 @@ export default function Hero() {
                             initial={{ x: 100, opacity: 0 }}
                             animate={{ x: 0, opacity: 1 }}
                             transition={{ duration: 1, delay: 1.2 }}
-                            className="relative z-10 rounded-full bg-neutral-950/20 p-[2px]"
+                            className="relative z-10 rounded-full bg-neutral-950/20 p-0.5"
                         >
                             <img
                                 src={profile}
                                 alt="about picture"
-                                className="rounded-full w-[300px] h-[300px] object-cover"
+                                className="rounded-full w-75 h-75 object-cover"
                             />
                         </motion.div>
                     </div>
