@@ -48,6 +48,7 @@ export const PROJECTS = [
   {
     //Ejemplos, falta por revisar cuales
     title: "Portfolio Website",
+    tagline: "Sitio web personal para mostrar proyectos y habilidades",
     image: project1,
     description:
       "Portfolio personal que muestra mis proyectos, habilidades y experiencia laboral.",
@@ -56,6 +57,7 @@ export const PROJECTS = [
   },
   {
     title: "Sentinel-pi",
+    tagline: "Sistema de monitoreo y gestión de ataques en tiempo real",
     image: project3,
     description: "Aplicación de monitoreo y gestión de ataques en tiempo real que permite a los usuarios supervisar y controlar incidentes de seguridad de manera eficiente ademas de predecir posibles amenazas futuras utilizando algoritmos de machine learning.",
     technologies: ["Spring Boot", "Java", "MySQL", "Thymeleaf", "HTML", "CSS"],
